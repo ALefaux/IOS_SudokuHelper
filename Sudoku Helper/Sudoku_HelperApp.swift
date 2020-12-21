@@ -11,7 +11,8 @@ import SwiftUI
 struct Sudoku_HelperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environmentObject(HomeViewModel())
         }
     }
 }
