@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5E30CC15257F701100DBB1D5 /* Term.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30CC14257F701100DBB1D5 /* Term.swift */; };
+		5E3794D62591E44B008003E9 /* NegativeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3794D52591E44B008003E9 /* NegativeButtonStyle.swift */; };
+		5E3794DA2591ED53008003E9 /* SudokuHelperButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3794D92591ED53008003E9 /* SudokuHelperButtonStyle.swift */; };
 		5E563759257B9E3F00411624 /* Sudoku_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E563758257B9E3F00411624 /* Sudoku_HelperApp.swift */; };
 		5E56375B257B9E3F00411624 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56375A257B9E3F00411624 /* HomeView.swift */; };
 		5E56375D257B9E4000411624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E56375C257B9E4000411624 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		5E30CC14257F701100DBB1D5 /* Term.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Term.swift; sourceTree = "<group>"; };
+		5E3794D52591E44B008003E9 /* NegativeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeButtonStyle.swift; sourceTree = "<group>"; };
+		5E3794D92591ED53008003E9 /* SudokuHelperButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuHelperButtonStyle.swift; sourceTree = "<group>"; };
 		5E563755257B9E3F00411624 /* Sudoku Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sudoku Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E563758257B9E3F00411624 /* Sudoku_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudoku_HelperApp.swift; sourceTree = "<group>"; };
 		5E56375A257B9E3F00411624 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -47,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E3794D82591ECF8008003E9 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				5E3794D52591E44B008003E9 /* NegativeButtonStyle.swift */,
+				5E3794D92591ED53008003E9 /* SudokuHelperButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		5E56374C257B9E3F00411624 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +79,7 @@
 		5E563757257B9E3F00411624 /* Sudoku Helper */ = {
 			isa = PBXGroup;
 			children = (
+				5E3794D82591ECF8008003E9 /* Styles */,
 				5E563758257B9E3F00411624 /* Sudoku_HelperApp.swift */,
 				5E56375A257B9E3F00411624 /* HomeView.swift */,
 				5E56375C257B9E4000411624 /* Assets.xcassets */,
@@ -161,8 +175,10 @@
 			files = (
 				5EDA8F8825897B1400621B30 /* View-Extensions.swift in Sources */,
 				5E563769257BE09400411624 /* TermsModal.swift in Sources */,
+				5E3794DA2591ED53008003E9 /* SudokuHelperButtonStyle.swift in Sources */,
 				5EDA8F8225894BC100621B30 /* EditButton.swift in Sources */,
 				5E30CC15257F701100DBB1D5 /* Term.swift in Sources */,
+				5E3794D62591E44B008003E9 /* NegativeButtonStyle.swift in Sources */,
 				5E7846A9258AA23800B81AB5 /* Array-Extensions.swift in Sources */,
 				5E56375B257B9E3F00411624 /* HomeView.swift in Sources */,
 				5EDA8F852589712300621B30 /* TitleTextField.swift in Sources */,

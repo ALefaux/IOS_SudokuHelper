@@ -24,21 +24,27 @@ struct TermsModal: View {
                 pinnedViews: []
             ) {
                 Section {
-                    ForEach(0...terms.count - 1, id: \.self) { index in
+                    ForEach(0..<terms.count, id: \.self) { index in
                         TermItem(isSelected: $terms[index].isSelected, number: terms[index].number)
                     }
                 }
             }
             Spacer()
             HStack {
+                Button("Effacer") {
+                    for index in 0..<terms.count {
+                        terms[index].isSelected = false
+                    }
+                }.foregroundColor(.red)
+                .padding(8)
                 Spacer()
                 Button("Annuler") {
                     self.terms = oldTerms
                     self.presentation.wrappedValue.dismiss()
-                }
+                }.padding(8)
                 Button("Valider") {
                     self.presentation.wrappedValue.dismiss()
-                }
+                }.padding(8)
             }
         }.padding(16)
         .onAppear {
